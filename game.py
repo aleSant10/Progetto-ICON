@@ -95,9 +95,10 @@ class Game:
                 if i == j:
                     if head_i in self.snakes[i][:-1]:
                         self.player_ids.remove(i)
-                else:
-                    if head_i in self.snakes[j]:
-                        self.player_ids.remove(i)
+                #Comment else statement because it is for only one snake
+                #else:
+                 #   if head_i in self.snakes[j]:
+                  #      self.player_ids.remove(i)
 
         # Spawn new food
         while len(self.food) < self.num_food:
