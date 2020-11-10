@@ -5,6 +5,8 @@
 Questo progetto si basa sul classico gioco degli anni settanta. 
 Realizzato in linguaggio Python e utilizzando l'interfaccia grafica della libreria tkinter, il gioco viene realizzato implementando una tecnologia di intelligenza artificiale nota come Deep Neural Network.
 
+![Immagine gioco](https://github.com/aleSant10/Progetto-ICON/blob/main/Snake.png)
+
 # 2 Deep Neural Network (DNN)
 Una **rete neurale** (in inglese **Neural Network**) è un modello computazionale composto di "neuroni" artificiali. I suddetti neuroni ricevono in input dei dati, li elaborano e comunicano il dato elaborato al nodo successivo. Si può pensare che se due neuroni comunicano fra loro utilizzando maggiormente alcune connessioni allora tali connessioni avranno un **peso** maggiore, fino a che non si creeranno delle connessioni tra l'ingresso e l'uscita della rete che sfruttano "percorsi preferenziali" creando delle reti. La rete non produce tuttavia un unico percorso ma ne produce svariati con pesi differenti.
 Una Neural Network è composta da diversi strati, detti **layer**:
