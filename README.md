@@ -19,6 +19,8 @@ Il passaggio da un layer al successivo avviene attraverso l'esecuzione di una fu
 Una Neural Network che presenta più hidden layer è detta **Deep Neural Network**.
 In particolare, l'algoritmo implementato per questo progetto presenta due hidden layer.
 
+![Immagine DNN](https://github.com/aleSant10/Progetto-ICON/blob/main/DNN.png)
+
 # 3 Algoritmo
 Data una popolazione di brains (neuroni), ognuno di essi giocherà una partita (num_trails = 1 ) e totalizzerà un punteggio in base a quanto bene giocherà. Di questa popolazione (pop_size = 100), il 25% col punteggio più alto verrà replicato nella generazione successiva e di questi ne verrà fatta una copia mutata seguendo la funzione **mutate (self, brain)**. Il resto dei brain verrà prodotto randomicamente fino a riempire il vettore della popolazione. Questa procedura verrà iterata per un numero di volte prestabilite (num_generation) e l'output sarà dato dal 25% migliore dell'ultima generazione che verrà mostrato a schermo.
 
