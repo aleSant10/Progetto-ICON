@@ -29,7 +29,7 @@ Data una popolazione di brains (neuroni), ognuno di essi giocherà una partita (
  - **mutation_chance** : la probabilità che una mutazione venga introdotta nella creazione della nuova generazione 
  - **mutation_size** : il 'peso' della mutazione
 
-![Tabella](https://github.com/aleSant10/Progetto-ICON/blob/main/Tabella.png%29)
+![Tabella](https://github.com/aleSant10/Progetto-ICON/blob/main/Tabella.png)
 
 In caso di avvenuta mutazione, i risultati possono variare: quindi non si possono considerare stabili questi valori e trarne una valutazione universale. 
 Questi valori sono stati ottenuti con i seguenti valori fissi:
